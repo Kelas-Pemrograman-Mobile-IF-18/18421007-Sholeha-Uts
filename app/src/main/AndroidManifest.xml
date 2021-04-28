@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sholeha.aplikasipenjualanhelm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiPenjualanHelm">
+        <activity android:name=".users.MenuHelmProyekActivity"></activity>
+        <activity android:name=".users.MenuHelmSepedaActivity" />
+        <activity android:name=".users.MenuHelmModernActivity" />
+        <activity android:name=".users.MenuHelmKlasik" />
+        <activity android:name=".users.HomeUserActivity" />
+        <activity android:name=".admin.HomeAdminActivity" />
+        <activity android:name=".RegistActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".users.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
